@@ -30,3 +30,4 @@ jobs:
       START_DATE: ${{ secrets.START_DATE }}
       BIRTHDAY: ${{ secrets.BIRTHDAY }}
       CITY: ${{city.DATA}}
+      MAXIMUM_TEMPERATURE :  ${{max_temperature.DATA}}
