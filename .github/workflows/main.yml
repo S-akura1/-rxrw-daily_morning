@@ -29,5 +29,4 @@ jobs:
       USER_ID: ${{ secrets.USER_ID }}
       START_DATE: ${{ secrets.START_DATE }}
       BIRTHDAY: ${{ secrets.BIRTHDAY }}
-      CITY: ${{city.DATA}}
-      MAXIMUM_TEMPERATURE :  ${{secrets.MAXIMUM_TEMPERATURE.DATA}}
+      CITY: ${{secrets.CITY.DATA}}
